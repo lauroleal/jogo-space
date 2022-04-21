@@ -83,7 +83,7 @@ function moveLaser(laser) {
         if (xPosition === 340) {
             laser.remove();
         } else {
-            laser.style.left = `${xPosition + 4}px`;
+            laser.style.left = `${xPosition +8}px`;
         }
     }, 10);
 }
